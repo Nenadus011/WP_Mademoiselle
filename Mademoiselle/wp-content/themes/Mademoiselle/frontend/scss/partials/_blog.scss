@@ -1,0 +1,130 @@
+
+
+.blog{
+    padding: 75px 0 56px;
+
+    .blog-title{
+        margin-bottom: 55px;
+    }
+
+
+    .blog-item{
+        margin-bottom: 20px;
+
+
+        .blog-news{
+            background-color: $white;
+            padding: 22px 18px 40px;
+            width: 90%;
+            margin: -100px auto 0;
+
+
+            .date{
+
+                font-size: 1.4rem;
+                font-style: italic;
+                font-family: $bodoni;
+                font-weight: $font-weight-light;
+                letter-spacing: 1px;
+                line-height: 1.7rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .blog-news-text{
+                font-family: $base-font;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+            }
+        }
+    }
+
+    .pagination{
+        display: inline-block;
+
+
+        a{
+            color: $gray-900;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            display:block;
+            
+
+        }
+    }
+
+
+
+}
+
+//blog-single
+
+
+.blog-single{
+    padding: 165px 0 97px;
+
+    .hair{
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+        padding-right: 5px;
+
+    }
+
+    .date{
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 1.7rem;
+        font-style: italic;
+        padding-left: 5px;
+        border-left: 1px solid $gray-900;
+        font-family: $bodoni;
+
+    }
+
+    .blog-single-item-title{
+        font-family: $base-font;
+        font-size: 4.4rem;
+        line-height: 5rem;
+
+    }
+
+    .blog-single-item-text{
+        font-family: $base-font;
+        font-size: 1.6rem;
+        font-weight: $font-weight-light;
+        line-height: 2.8rem;
+
+    }
+}
+
+
+
+
+
+
+.blog-single-description{
+
+    article{
+        p:last-of-type{
+            margin-bottom: 42px;
+        }
+    }
+
+    .blog-tags{
+
+        .tag-title,.tags a{
+            font-size: 1.6rem;
+            font-weight: $font-weight-light;
+
+            line-height: 2.7rem;
+        }
+    }
+}
+
+
+
+

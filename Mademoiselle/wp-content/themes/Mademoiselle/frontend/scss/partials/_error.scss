@@ -1,0 +1,21 @@
+
+.error-page{
+    padding: 220px 0;
+
+    h1{
+        margin-bottom: 32px;
+        font-size: 6rem;
+        font-weight: $font-weight-light;
+        letter-spacing: 2rem;
+        line-height: 8rem;
+    }
+
+    a{
+        border:1.5px solid $white;
+        font-family: $base-font;
+        font-size: 1.4rem;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+    }
+}
+

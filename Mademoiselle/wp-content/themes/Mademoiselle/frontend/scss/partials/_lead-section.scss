@@ -1,0 +1,33 @@
+
+
+
+.lead-section{
+    padding: 120px 0;
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.82;
+    
+
+    h1{
+        font-size: 4.5rem;
+        font-weight: $font-weight-light;
+        line-height: 4rem;
+        color:$white;
+        text-align: center;
+    }
+}
+
+@media(min-width:992px){
+    .lead-section{
+        padding: 218px 0 271px;
+
+        h1{
+            font-size: 6rem;
+            font-weight: $font-weight-light;
+            letter-spacing: 2rem;
+            line-height: 8.4rem;
+        }
+    }
+}

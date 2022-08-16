@@ -1,0 +1,54 @@
+
+$bg-info:$rose;
+$bg-form-control:rgba(#253D61, 0.02);
+
+
+.contact{
+    padding: 115px 0 110px;
+
+    .contact-form{
+
+        .form-group{
+
+            margin-bottom: 20px;
+
+            .form-control{
+                background: $bg-form-control;
+                border: none;
+                height: 50px !important;
+                line-height: 50px;
+                padding: 0 10px;
+                color:$gray-900;
+            }
+            
+            textarea.form-control{
+        height: 149px !important;
+        resize: none;
+    }
+    
+    .error-msg *{
+        color: $danger;
+        font-size: 1.6rem;
+    }
+
+            button{
+                border: 1px solid $gray-900;
+            }
+        }
+    }
+
+
+
+}
+
+.info{
+    padding: 63px 0;
+    background-color: $bg-info;
+
+    a{
+        color: $gray-900;
+        font-size: 1.7rem;
+        font-weight: $font-weight-light;
+        line-height: 2rem;
+    }
+}

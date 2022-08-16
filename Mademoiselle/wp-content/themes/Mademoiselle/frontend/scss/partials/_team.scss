@@ -1,0 +1,42 @@
+
+
+.team{
+    padding: 65px 0 67px;
+
+    .team-title{
+        margin-bottom: 60px;
+        font-size: 3rem;
+        font-weight: $font-weight-light;
+        letter-spacing: 0.5rem;
+        line-height: 4.5rem;
+        color:$gray-900
+    }
+    .row{
+        border-top:2px solid $rose;
+        border-bottom:2px solid $rose;
+        padding: 54px 0;
+    }
+
+    .team-item{
+     
+        
+        .team-item-title{
+            font-family: 'Lato', sans-serif;
+            font-size: 3rem;
+            line-height: 2.7rem;
+        }
+
+        .team-item-text{
+            font-family: 'Lato', sans-serif;
+            font-size: 1.6rem;
+            font-weight: $font-weight-light;            
+        }
+    }
+
+
+@media(min-width:768px){
+    .team{
+        padding: 111px 0 67px;
+    }
+}
+}
